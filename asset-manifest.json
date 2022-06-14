@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/billiard-center/static/css/main.ebc76a83.css",
+    "main.js": "/billiard-center/static/js/main.713faf26.js",
+    "static/media/thumbnail3.jpg": "/billiard-center/static/media/thumbnail3.f982df6fd82f342b5944.jpg",
+    "static/media/issam-ammiche-Pj8150WbKAo-unsplash.jpg": "/billiard-center/static/media/issam-ammiche-Pj8150WbKAo-unsplash.f5b793d6198eb35070e2.jpg",
+    "index.html": "/billiard-center/index.html",
+    "main.ebc76a83.css.map": "/billiard-center/static/css/main.ebc76a83.css.map",
+    "main.713faf26.js.map": "/billiard-center/static/js/main.713faf26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebc76a83.css",
+    "static/js/main.713faf26.js"
+  ]
+}
