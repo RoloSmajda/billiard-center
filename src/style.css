@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.tournamentDetail .home{
+    flex: 1;
+}
+
+body {
+    background-color: #1D1D27;
+}
+
+.tournament {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1em;
+    position: relative;
+    border-radius: 1.7rem;
+}
+
+.tournament img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1.7rem;
+}
+
+
+.tournamentLink {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.shadow {
+    border-radius: 1.7rem;
+    height: 98%;
+    width: 100%;
+    position: absolute;
+    -webkit-box-shadow: inset 0px -80px 33px -11px rgba(0, 0, 0, 0.67);
+    box-shadow: inset 0px -80px 33px -11px rgba(0, 0, 0, 0.67);
+}
+
+.tournamentTitle {
+    font-size: 3rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+}
+
+
+.newTournamentButton {
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 1.5rem;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)),
+        url('img/thumbnail3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.round {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.7)),
+        url('img/issam-ammiche-Pj8150WbKAo-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+    
+    border-radius: 1.7rem;
+    
+
+    margin-bottom: 2em;
+
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.roundTitle {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+.roundResult {
+    font-size: 1.75rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    opacity: 0.75;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    
+}
+
+.roundIcon {
+    color: #00E676;
+    font-size: 1.5rem;
+    vertical-align: baseline;
+    margin-left: 0.5rem;
+}
+
+.roundIconNotDone{
+    color: #E3E600;
+}
+
+
+.roundList {
+    margin-bottom: 2em;
+}
+
+.newRoundButton {
+    position: relative;
+    border-radius: 1.5rem;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.75)),
+        url('img/pexels-pavel-danilyuk-7403782.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+
+
+    padding: 1.2rem;
+}
+
+
+
+.logo {
+    display: inline-block;
+}
+
+.logoIcon {
+    color: #00E676;
+    height: 0.8em;
+    vertical-align: baseline;
+    margin-right: 0.2em;
+
+}
+
+.name {
+    display: inline-block;
+}
+
+.header {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    padding: 1rem;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #1D1D27;
+}
+
+
+
+.footer {
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    background-color: #1D1D27;
+
+
+
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+
+
+.plusIcon {
+    margin-right: 0.3em;
+}
+
+
+.tournamentDetail {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.tournamentDetailHeading {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    width: 100%;
+
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.tournamentDetailHeading span{
+    font-size: 2rem;
+    padding-right: 1rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 1vw;
+}
+
+.tournamentTable {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    background-color: #2B2B32;
+    padding: 0.5rem 1rem;
+    border-radius: 1.7rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.tournamentTable table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.tournamentTable th {
+    font-family: 'Lexend', sans-serif;
+}
+
+.tournamentTable th {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.733);
+}
+
+.tableName {
+    padding-left: 0.5em;
+}
+
+.tablePoints {
+    text-align: center;
+    padding-left: 1em;
+}
+
+.tableDiff {
+    text-align: center;
+    padding-left: 0.5em;
+}
+
+
+.roundDetail {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+
+.roundTable {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    background-color: #2B2B32;
+    padding: 0.5rem 1rem;
+    border-radius: 1.7rem;
+
+
+    margin: 0 auto;
+}
+
+.roundTable table {
+    border-collapse: collapse;
+}
+
+.roundTable thead {
+    font-family: 'Lexend', sans-serif;
+}
+
+.roundTable th {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.733);
+}
+
+
+
+.roundTable td,
+th {
+    padding-right: 0.3em;
+}
+
+.roundTable td:last-child,
+th:last-child {
+    padding-right: 0em;
+}
+
+
+.roundTablePlayerName {
+    padding-right: 10rem;
+}
+
+/*MATCH*/
+
+.match {
+    background-color: #2B2B32;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif;
+
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.matchInfo {
+}
+
+
+.evaluateMatchButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.evaluateMatchButton button {
+    font-size: 2rem;
+    background-color: #00E676;
+    color: #1D1D27;
+    padding: 0.3rem 1rem;
+    border-radius: 1.8rem;
+    border: none;
+}
+.evaluateMatchButton svg{
+    width: 70%;
+}
+
+.evaluateMatchButton button:disabled {
+    font-size: 2rem;
+    background-color: gray;
+    color: lightgray;
+    padding: 0.3rem 1rem;
+    border-radius: 1.8rem;
+}
+
+.matchTitle {
+    color: #00E676;
+    font-size: 1.3rem;
+}
+
+.playersInfo {
+    color: white;
+}
+
+.playersInfo span {
+    margin-right: 0.8rem;
+}
+
+.vs {
+    font-weight: 200;
+}
+
+.matchType {
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    padding-left: 0.3rem;
+}
+
+.winner {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.looser {
+    font-weight: 100;
+}
+
+.normal {
+    color: white;
+}
+
+/*MODAL*/
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1D1D27;
+    color: white;
+    padding: 2rem;
+    padding-bottom: 1.5rem;
+    z-index: 1000;
+
+    font-size: 1.2rem;
+}
+
+.modalTitle {
+    font-size: 1.8rem;
+}
+
+.modalSubTitle{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.modalSubTitle span{
+    margin-left: 10.5rem;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .7);
+    z-index: 1000;
+}
+
+
+.modalInputs {
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-flow: wrap;
+
+    margin-bottom: 0.5rem;
+}
+
+.row{
+    margin-bottom: 1rem;
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ballsLeftInputs {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.winnerRadios {
+    display: flex;
+    flex-direction: column;
+}
+
+.radios{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+
+
+.winnerTitle{
+}
+
+.radioContainer {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    right: 8%;
+}
+
+.winnerRadios input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.customRadio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: #1D1D27;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+
+.radioContainer:hover input~.customRadio {
+    background-color: #115534;
+}
+
+.radioContainer:checked~.customRadio {
+    background-color: #00E676;
+}
+
+.customRadio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radioContainer input:checked~.customRadio:after {
+    display: block;
+}
+
+.radioContainer .customRadio:after {
+    top: 0.4rem;
+    left: 0.4rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #00E676;
+}
+
+
+
+.input {
+    width: 50%;
+    font-size: 1.3rem;
+    background-color: #1D1D27;
+    border-radius: 1rem;
+    border: 2px solid rgb(216, 216, 216);
+
+    padding: 0.5rem 1rem;
+
+
+    color: white;
+
+}
+
+.input:focus {
+    outline: none !important;
+    border: 2px solid #00E676;
+}
+
+.label {
+    color: white;
+    position: relative;
+    left: -35vw;
+    transition: top 200ms ease-in,
+        left 200ms ease-in,
+        font-size 200ms ease-in;
+
+    background-color: #1D1D27;
+}
+
+.input:focus~.label,
+.input:not(:placeholder-shown):not(:focus)~.label {
+    top: -6vw;
+    font-size: 1.2rem;
+}
+
+
+.input:focus~.label {
+    color: #00E676;
+}
+
+.modalControls {
+    color: #00E676;
+    text-align: end;
+}
+
+.modalControls span {
+    margin-left: 2rem;
+}
+
+.toast{
+    font-size: 1.3rem;
+}
+
+.toast button{
+    background-color: inherit;
+    color: inherit;
+}
+
+.noResults{
+    color: white;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+
+    margin-bottom: 1.5rem;
+}

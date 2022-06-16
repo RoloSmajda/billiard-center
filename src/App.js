@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useEffect, cloneElement } from "react";
+import TournamentList from "./components/TournamentList";
+import Tournament from "./components/Tournament";
+import { db } from "./firebase-config";
+import { collection, getDocs, addDoc } from "firebase/firestore";
+import { async } from "@firebase/util";
+import MainComponent from "./components/MainComponent";
+import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+      <MainComponent />
+    </BrowserRouter>
+    
+    </>
+    
+
   );
 }
 

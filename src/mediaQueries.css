@@ -1,0 +1,138 @@
+@media only screen and (max-width: 900px) {
+    .tournament {
+        width: 90%;
+    }
+
+    .newTournamentButton {
+        width: 90%;
+    }
+
+    .tournamentDetail {
+        width: 90%;
+    }
+
+    .roundDetail {
+        width: 90%;
+    }
+
+    .roundTable {
+        font-size: 7.5vw;
+    }
+
+    .roundTable table {
+        width: 100%
+    }
+
+    .modalTitle {
+        font-size: 1.5rem;
+    }
+
+    .playersInfo {
+        font-size: 7vw;
+    }
+
+    .modal {
+        width: 60%;
+    }
+
+    .input1:focus~.label,
+    .input1:not(:placeholder-shown):not(:focus)~.label {
+        top: 5.8rem;
+        left: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .input2:focus~.label2,
+    .input2:not(:placeholder-shown):not(:focus)~.label2 {
+        top: 10.2rem;
+        left: 3rem;
+        font-size: 1.3rem;
+    }
+
+    .tournamentTable {
+        font-size: 6vw;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .modal {
+        width: 65%;
+    }
+
+    .roundTablePlayerName{
+        padding-right: 5rem;
+    }
+
+    .tournamentDetailHeading{
+        font-size: 2.5rem;
+    }
+
+    .matchTitle{
+        font-size: 1.1rem;
+    }
+
+    .evaluateMatchButton{
+        font-size: 9vw
+    }
+
+    .evaluateMatchButton button{
+    }
+
+    .round .newRoundButton{
+        margin-bottom: 1.5rem;
+    }
+
+    .tournamentTitle{
+        font-size: 2.5rem;
+    }
+
+    .modalControls{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 552px) {
+
+    .modalTitle {
+        font-size: 1.3rem;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 420px) {
+
+    .header {
+        font-size: 2.5rem;
+    }
+
+    .tournamentTable table{
+        font-size: 7.5vw;
+    }
+
+    .roundTablePlayerName{
+        padding-right: 6.5rem;
+    }
+    
+    .modalTitle{
+        font-size: 1.1rem;
+    }
+
+    .matchType{
+        font-size: 1.5rem;
+    }
+
+    .Toastify__toast-container {
+        width: 80% !important;
+        bottom: 2rem !important;
+        left: 10% !important;
+    }
+
+
+
+}
