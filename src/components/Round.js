@@ -23,7 +23,6 @@ export default function Round({ index, id, tournamentID, tournamentIndex, state 
 
   useEffect(() => {
     getResults()
-    console.log("HERE");
   }, [state])
 
   
