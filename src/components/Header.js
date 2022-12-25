@@ -7,6 +7,7 @@ import "../mediaQueries.css"
 export default function Header() {
   return (
     <div className='header'>
+      
       <div  className="logo">
         <FontAwesomeIcon icon={faGlobe} className="logoIcon"></FontAwesomeIcon>
       </div>

@@ -11,7 +11,7 @@ export default function MainComponent() {
 
     return (
         <>
-            <Link to={"/billiard-center"} className="link"><Header /></Link>
+            <Link to={"/billiard-center"} className="link headerLink"><Header /></Link>
 
             <Routes >
                 <Route path="/billiard-center" element={<Home />}/>

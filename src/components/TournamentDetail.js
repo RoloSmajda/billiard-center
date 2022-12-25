@@ -9,6 +9,26 @@ import "../style.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusCircle } from '@fortawesome/free-solid-svg-icons'
 
+import Fab from '@mui/material/Fab';
+import AddIcon from '@mui/icons-material/Add';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+    status: {
+      danger: '#e53e3e',
+    },
+    palette: {
+      primary: {
+        main: '#00E676',
+        darker: '#053e85',
+      },
+      neutral: {
+        main: '#64748B',
+        contrastText: '#fff',
+      },
+    },
+  });
+
 export default function TournamentDetail() {
   const [rounds, setRounds] = useState([])
   const [table, setTable] = useState([])
@@ -94,6 +114,10 @@ export default function TournamentDetail() {
     
   }
 
+  const temp = () =>{
+    console.log("TEST");
+  }
+
   return (
     <div className="tournamentDetail">
       <div className="tournamentDetailHeading">
@@ -108,9 +132,12 @@ export default function TournamentDetail() {
         state={newRoundState}
       />
 
-      <div className="newRoundButton" onClick={newRound}>
-        <FontAwesomeIcon icon={faPlusCircle} className="plusIcon" />
-        Nové kolo
+      <div className="addButton" id="addBtn">
+        <ThemeProvider theme={theme}>
+            <Fab color="primary" aria-label="add" onClick={temp}>
+                <AddIcon />
+            </Fab>
+        </ThemeProvider>
       </div>
     </div>
   )

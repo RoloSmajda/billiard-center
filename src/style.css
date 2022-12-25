@@ -6,20 +6,26 @@
 #root{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 .tournamentDetail .home{
     flex: 1;
 }
 
+html{
+    height: 100%;
+}
+
 body {
     background-color: #1D1D27;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .tournament {
     width: 40%;
     margin: 0 auto;
-    margin-top: 1em;
+    margin-bottom: 1em;
     position: relative;
     border-radius: 1.7rem;
 }
@@ -57,7 +63,7 @@ body {
 
 
 .newTournamentButton {
-    width: 40%;
+    
     margin: 0 auto;
     height: 3em;
     line-height: 3em;
@@ -185,12 +191,17 @@ body {
     padding: 1rem;
     text-align: center;
 
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+
     background-color: #1D1D27;
+
+    
 }
 
+.headerLink{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
 
 
 .footer {
@@ -200,9 +211,8 @@ body {
     padding-top: 2em;
     padding-bottom: 2em;
 
+
     background-color: #1D1D27;
-
-
 
 }
 
@@ -220,16 +230,31 @@ body {
     text-decoration: underline;
 }
 
+.home{
+}
 
+.addButton {
+    position: sticky;
+    bottom: 0rem;
+    float: right;
+    margin-right: 2rem;
+    height: 0;
+    transform: translateY(-4.7rem);
+}
+.addButtonBtn{
+    position: absolute;
+} 
 
-.plusIcon {
-    margin-right: 0.3em;
+.test{
+    height: 3rem;
+    background-color: #E3E600;
 }
 
 
 .tournamentDetail {
     width: 50%;
     margin: 0 auto;
+    position: relative;
 }
 
 .tournamentDetailHeading {
