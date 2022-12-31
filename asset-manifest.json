@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/billiard-center/static/css/main.a4096d89.css",
-    "main.js": "/billiard-center/static/js/main.235c1723.js",
+    "main.css": "/billiard-center/static/css/main.30eb9cd9.css",
+    "main.js": "/billiard-center/static/js/main.88d20cbc.js",
+    "static/media/thumbnail3.jpg": "/billiard-center/static/media/thumbnail3.0b90f33ee6f0ca02a5c3.jpg",
     "static/media/pexels-pavel-danilyuk-7403782.jpg": "/billiard-center/static/media/pexels-pavel-danilyuk-7403782.db51e7225c9b614c94c2.jpg",
-    "static/media/thumbnail3.jpg": "/billiard-center/static/media/thumbnail3.f982df6fd82f342b5944.jpg",
     "static/media/issam-ammiche-Pj8150WbKAo-unsplash.jpg": "/billiard-center/static/media/issam-ammiche-Pj8150WbKAo-unsplash.a802bb102b911d3f3549.jpg",
     "index.html": "/billiard-center/index.html",
-    "main.a4096d89.css.map": "/billiard-center/static/css/main.a4096d89.css.map",
-    "main.235c1723.js.map": "/billiard-center/static/js/main.235c1723.js.map"
+    "main.30eb9cd9.css.map": "/billiard-center/static/css/main.30eb9cd9.css.map",
+    "main.88d20cbc.js.map": "/billiard-center/static/js/main.88d20cbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4096d89.css",
-    "static/js/main.235c1723.js"
+    "static/css/main.30eb9cd9.css",
+    "static/js/main.88d20cbc.js"
   ]
 }
