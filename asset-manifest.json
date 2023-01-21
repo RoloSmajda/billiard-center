@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/billiard-center/static/css/main.d089e107.css",
-    "main.js": "/billiard-center/static/js/main.46e1b5cd.js",
+    "main.css": "/billiard-center/static/css/main.e5ca38f4.css",
+    "main.js": "/billiard-center/static/js/main.1730ba65.js",
     "static/media/thumbnail3.jpg": "/billiard-center/static/media/thumbnail3.0b90f33ee6f0ca02a5c3.jpg",
     "static/media/pexels-pavel-danilyuk-7403782.jpg": "/billiard-center/static/media/pexels-pavel-danilyuk-7403782.db51e7225c9b614c94c2.jpg",
-    "static/media/issam-ammiche-Pj8150WbKAo-unsplash.jpg": "/billiard-center/static/media/issam-ammiche-Pj8150WbKAo-unsplash.a802bb102b911d3f3549.jpg",
+    "static/media/ado.png": "/billiard-center/static/media/ado.dc8a0217634eb0b3f3d5.png",
+    "static/media/rolo.png": "/billiard-center/static/media/rolo.af2df559099c5c335757.png",
+    "static/media/tomas.png": "/billiard-center/static/media/tomas.539e75fe2e1de42e55c4.png",
+    "static/media/marek.png": "/billiard-center/static/media/marek.162a1ed3cd82286913eb.png",
     "index.html": "/billiard-center/index.html",
-    "main.d089e107.css.map": "/billiard-center/static/css/main.d089e107.css.map",
-    "main.46e1b5cd.js.map": "/billiard-center/static/js/main.46e1b5cd.js.map"
+    "main.e5ca38f4.css.map": "/billiard-center/static/css/main.e5ca38f4.css.map",
+    "main.1730ba65.js.map": "/billiard-center/static/js/main.1730ba65.js.map"
   },
   "entrypoints": [
-    "static/css/main.d089e107.css",
-    "static/js/main.46e1b5cd.js"
+    "static/css/main.e5ca38f4.css",
+    "static/js/main.1730ba65.js"
   ]
 }
